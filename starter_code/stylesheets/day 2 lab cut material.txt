@@ -1,0 +1,389 @@
+
+/* .navbig{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-evenly;
+  gap: 200px; 
+}
+
+nav {
+  /* margin: 0px;
+  padding: 0px; */
+/* width: 100%; */
+/* display: flex;
+  flex-direction: row-rever;
+  justify-content: space-between;
+  background-color: #540b51;
+
+  align-content: space-between;
+  padding: 25px 40px 25px 40px; 
+   gap: 200px; 
+} */
+
+/* 
+.starttext {
+  text-align: center;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 1000;
+  padding-top: 50px;
+}
+
+.companies img {
+  height: 50px;
+}
+
+html {
+  background-color: #f3eae2;
+}
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 1.9rem;
+  margin: 20px 0;
+  padding-bottom: 50px;
+}
+
+.movefaster h3 {
+  font-size: 2.8rem;
+}
+
+.movefaster span {
+  font-weight: 1000;
+  color: #540b51;
+  font-size: 2.8rem;
+}
+
+.movefaster {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.movefaster p {
+  font-weight: 1000;
+  font-size: 1.2rem;
+}
+
+.movefaster ul {
+  list-style: none;
+}
+
+.talk {
+  height: 50px;
+  color: #540b51;
+  margin: 5px 10px;
+  border-radius: 5px;
+  border: 2;
+  border-color: #540b51;
+  text-transform: uppercase;
+  background-color: white;
+  width: 705px;
+}
+
+.meet {
+  height: 50px;
+  color: white;
+  margin: 5px 10px;
+  border-radius: 5px;
+  border: 2;
+  border-color: #540b51;
+  text-transform: uppercase;
+  background-color: #540b51;
+  width: 705px;
+}
+
+.teambuttons {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome {
+  margin-top: -20px;
+  background-color: #540b51;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tryforfree {
+  height: 50px;
+  color: white;
+  margin: 5px 10px;
+  border-radius: 5px;
+  border: 2;
+  border-color: white;
+  text-transform: uppercase;
+  background-color: #540b51;
+  width: 705px;
+}
+
+.talktosales {
+  height: 50px;
+  color: #540b51;
+  margin: 5px 10px;
+  border-radius: 5px;
+  border: 2;
+  border-color: #540b51;
+  text-transform: uppercase;
+  background-color: white;
+  margin-bottom: 50px;
+  width: 705px;
+}
+
+footer {
+  background-color: white;
+}
+
+.movefaster ul {
+  margin: 20px 210px;
+}
+.slacklogo2 {
+  height: 100px;
+
+  padding: 50px 0 25px 25px;
+}
+footer ul {
+  list-style: none;
+}
+.footerindex {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-right: 30px;
+}
+
+footer li {
+  padding: 10px;
+}
+
+footer ul :first-child {
+  font-weight: 1000;
+}
+
+.middlefooter {
+  font-size: 1.4rem;
+  font-weight: 1000;
+}
+
+footer hr {
+  width: 85%;
+}
+
+.social {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.copywrite {
+  padding: 40px;
+  font-size: 1.6rem;
+}
+
+.content a {
+  text-decoration: none;
+} */
+
+/* @media (min-width: 768px) {
+  nav {
+    gap: 600px;
+  }
+
+  .headerButtons {
+    position: absolute;
+    top: 650px;
+    left: 6%;
+    width: 10px;
+  }
+  .headerpic {
+    position: absolute;
+    height: 400px;
+    left: 600px;
+    top: 200px;
+  }
+
+  header {
+    height: 750px;
+  }
+
+  header h1,
+  p {
+    position: relative;
+    margin-left: 7%;
+    text-align: left;
+    margin-right: 45%;
+  }
+  header h1 {
+    font-size: 5rem;
+  }
+
+  header p {
+    font-size: 1.5rem;
+    margin-right: 65%;
+  }
+
+  .signButton {
+    width: 400px;
+    color: #540b51;
+  }
+
+  .googleButton {
+    width: 400px;
+  }
+
+  .googleLogo {
+    left: 19px;
+
+    top: 73px;
+  }
+
+  .starttext {
+    text-align: center;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 1000;
+    padding-top: 50px;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .companies img {
+    height: 40px;
+    margin-bottom: 40px;
+  }
+
+  .mainimages {
+    height: 500px;
+  }
+
+  .fotoright {
+    margin-left: 450px;
+  }
+
+  .fotoleft {
+    margin-right: 450px;
+  }
+
+  .content h2,
+  p,
+  a {
+    margin-left: 150px;
+  }
+
+  .movefaster li {
+    padding-right: 0px;
+    margin: 50px 70px 90px 0px;
+  }
+  .movefaster ul {
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 150px 0px 0px;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .teambuttons {
+    display: flex;
+    flex-direction: row;
+  }
+  .movefaster p {
+    left: 140px;
+    padding: 0px;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .percent {
+    bottom: -40px;
+    padding: 0px;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .talk {
+    width: 200px;
+  }
+
+  .meet {
+    width: 350px;
+  }
+
+  .teambuttons {
+    margin-left: 180px;
+  }
+
+  .talktosales,
+  .tryforfree {
+    width: 660px;
+    margin-left: 150px;
+  }
+} */
+
+/* @media (min-width: 768px) {
+  .noMobile {
+    display: flex;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #540b51;
+    flex-direction: row;
+    padding: 25px 40px 25px 40px;
+  }
+
+  .navbig {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  .navbig ul {
+    gap: 50px;
+  }
+
+  .subnavmenus {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .navbuttons {
+    gap: 50px;
+  }
+
+  .biggerthanphone {
+    display: none;
+  }
+
+  nav li {
+    list-style: none;
+    font-size: 1.2rem;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+} */

@@ -13,31 +13,60 @@ img {
   max-width: 100vw;
 }
 
+html {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 .noMobile {
   display: none;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
   background-color: #540b51;
-  flex-direction: row;
   padding: 25px 40px 25px 40px;
-  
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-between;
+}
+
+.subnavmenus button {
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  background-color: transparent;
+  margin-left: 15px;
 }
 
 .slacklogo {
+  margin: 0px;
+  padding: 0px;
   width: 120px;
 }
 
 header {
+  margin: 0px;
+  padding: 0px;
   background-color: #540b51;
   display: flex;
   flex-direction: column;
-}
-header {
-  text-align: center;
+  align-content: center;
   color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.6rem;
+}
+
+header h1,
+p {
+  margin: 15px 25px 10px 25px;
 }
 
 .enfasis {
@@ -46,24 +75,27 @@ header {
 }
 
 .headerButtons {
+  margin: 0px;
+  padding: 0px;
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
+
+  align-content: center;
 }
 
 .googleLogo {
   width: 30px;
 
   background-color: white;
-  position: absolute;
-  left: 5%;
-  top: 278px;
+  /* top: 278px; */
   border-radius: 5px;
   border: 0;
 }
 
 .signButton {
   height: 50px;
+  /* width: 705px; */
   color: #540b51;
   margin: 5px 10px;
   border-radius: 5px;
@@ -72,19 +104,38 @@ header {
 }
 .googleButton {
   height: 50px;
+  /* width: -; */
   text-align: center;
   color: white;
   background-color: #4285f4;
-  margin: 5px 10px;
+  margin: 5px 10px 5px 10px;
   border-radius: 5px;
   border: 0;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
-
+.googleLogohidden {
+  visibility: hidden;
+}
 main {
   background-color: #f3eae2;
 }
 
+.headerpicbox {
+  /* object-fit: none; */
+
+  overflow: hidden;
+}
+.headerpic {
+  scale: 130%;
+  object-position: 40px 50px;
+  justify-content: left;
+}
+
+/*                upppgood  */
 .starttext {
   text-align: center;
   font-size: 1.7rem;
@@ -100,21 +151,47 @@ main {
 html {
   background-color: #f3eae2;
 }
+
 .companies {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  justify-content: center;
+  margin: 50px 0px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-
   font-size: 1.9rem;
-  margin: 20px 0;
-  padding-bottom: 50px;
+  /*  margin: 20px 0;*/
+  padding-bottom: 70px;
+}
+
+.content p,
+h2 {
+  margin: 30px 10%;
+}
+
+.contentLink {
+  white-space: nowrap;
+  margin: 30px 10%;
+}
+
+/* .mainimages {
+  margin-top: 80px;
+} */
+
+.mainimages {
+  overflow: hidden;
+}
+
+.fotoright {
+  margin-left: 50px;
+}
+
+.fotoleft {
+  margin-right: 50px;
 }
 
 .movefaster h3 {
@@ -129,10 +206,14 @@ html {
 
 .movefaster {
   text-align: center;
-
+  width: 100vw;
   display: flex;
+  align-items: stretch;
+  align-content: stretch;
   flex-direction: column;
   background-color: white;
+  padding: 0px 0px 60px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 .movefaster p {
@@ -142,6 +223,8 @@ html {
 
 .movefaster ul {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .talk {
@@ -153,6 +236,7 @@ html {
   border-color: #540b51;
   text-transform: uppercase;
   background-color: white;
+  width: 97vw;
 }
 
 .meet {
@@ -164,6 +248,7 @@ html {
   border-color: #540b51;
   text-transform: uppercase;
   background-color: #540b51;
+  width: 97vw;
 }
 
 .teambuttons {
@@ -174,7 +259,6 @@ html {
 }
 
 .welcome {
-  margin-top: -20px;
   background-color: #540b51;
   color: white;
   font-size: 2.5rem;
@@ -182,6 +266,7 @@ html {
 
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 
 .tryforfree {
@@ -193,6 +278,7 @@ html {
   border-color: white;
   text-transform: uppercase;
   background-color: #540b51;
+  width: 97vw;
 }
 
 .talktosales {
@@ -205,19 +291,28 @@ html {
   text-transform: uppercase;
   background-color: white;
   margin-bottom: 50px;
+  width: 97vw;
 }
 
 footer {
   background-color: white;
+
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .movefaster ul {
   margin: 20px 210px;
 }
 .slacklogo2 {
-  height: 100px;
-
-  padding: 50px 0 25px 25px;
+  width: 100px;
+  /* padding-left: 10px; */
+  padding: 50px 0 25px 7%;
 }
 footer ul {
   list-style: none;
@@ -264,82 +359,213 @@ footer hr {
   text-decoration: none;
 }
 
-
-
-
-
-
-
 @media (min-width: 768px) {
-
-  .noMobile {
-    display: flex;
+  header {
+    flex-direction: row;
+    /* align-content: flex-start; */
   }
 
+  header h1 {
+    font-size: 4.5rem;
+    text-align: left;
+  }
 
+  header p {
+    margin: 20px 160px 20px 10px;
+    text-align: left;
+  }
+
+  .great {
+    width: 100%;
+  }
+
+  .headerpic {
+    overflow: visible;
+    scale: 70%;
+  }
+
+  .headerpicbox {
+    /* width: 800px; */
+    margin-bottom: 10%;
+
+    overflow: hidden;
+  }
+
+  .teambuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .meet {
+    width: 40vw;
+  }
+
+  .talk {
+    width: 20vw;
+  }
+
+  .data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .tryforfree,
+  .talktosales {
+    margin-left: 16vw;
+
+    width: 70vw;
+  }
+
+  .middlefooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-right: 5%;
+  }
+
+  .social {
+    width: 40vw;
+  }
+
+  .footerindex {
+    margin-left: -4vw;
+  }
+  .slacklogo2 {
+    margin-left: -4vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .noMobile {
+    gap: 15px;
+
+    /* justify-content: center;
+flex-direction: row; */
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  .subnavmenus {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .biggerthanphone {
+    display: none;
+  }
+  .navbig {
+    /* margin: 0px;
+  padding: 0px; */
+
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+  }
 
   nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: #540b51;
-    flex-direction: row;
-    padding: 25px 40px 25px 40px;
-    
+    align-content: center;
+    justify-content: space-evenly;
   }
 
- .navbig {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-  align-items: center;
-    
-  }
-  .navbig ul{
-
-    gap: 50px;
-  }
-
-.subnavmenus{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-  align-items: center;
- 
-
-
-}
-
-
-.navbuttons{
-
-    gap: 50px;
-
-
-}
-.biggerthanphone{
-display: none;
-
-
-
-}
-nav li{
-
+  .noMobile li {
     list-style: none;
-font-size:1.2rem;
+  }
+  .nodeco {
+    text-decoration: none;
+
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .makeButton {
+    padding: 10px 20px;
+    background-color: white;
+    text-decoration: none;
+
+    color: #540b51;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    border-radius: 5px;
+    border: 0;
+    text-transform: uppercase;
+  }
+
+  .headerButtons {
+    margin-top: 200px;
+  }
+
+  .great {
+    /* margin-left: 50px; */
+    margin-top: 50px;
+  }
+
+  .content {
+    /* scale: 80%; */
+    flex-direction: row;
+
+    justify-content: space-between;
+  }
+
+  /* .bigscreensize{
+scale: 80%;
 
 
+
+
+}*/
+
+  .mainimages {
+    height: 50vw;
+  }
+
+  .toRevese {
+    flex-direction: row-reverse;
+  }
+
+  .meet {
+    width: 25vw;
+  }
+
+  .talk {
+    width: 15vw;
+  }
+
+  .data {
+    width: 80vw;
+    justify-content: space-between;
+    right: -1000px;
+  }
+
+.movefaster {
+  align-content: center;
+  align-items: center;
 }
 
-nav a{
-color: white;
- text-decoration: none; 
-
+.welcomebuttons {
+  display: flex;
+  justify-content: center;
 }
 
+.tryforfree,
+.talktosales {
+  margin: 0px 5px 40px 5px;
+  width: 20vw;
+}
 
-
-
-
+.slacklogo2 {
+  margin-left: -2.5vw;
+}
 
 
 
